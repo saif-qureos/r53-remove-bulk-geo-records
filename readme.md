@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Update Geolocation Records
-      uses: saif-qureos/aws-route53-geolocation-updater@v2.0.4
+      uses: saif-qureos/aws-route53-geolocation-updater@v1.0
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
