@@ -1,6 +1,6 @@
 # AWS Route 53 Geolocation Remover
 
-This GitHub Action removes the geolocation records of a domain in AWS Route 53 and laves only the default one, using AWS CLI.
+This GitHub Action removes the geolocation records of a domain in AWS Route 53 and leaves only the default one, using AWS CLI.
 ## Inputs
 
 - `aws-access-key-id` (**Required**): The AWS access key ID with the necessary permissions to make changes in Route 53.
