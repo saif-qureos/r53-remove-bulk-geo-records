@@ -21,10 +21,10 @@ on:
     branches: [ main ]
 
 jobs:
-  update-geolocation-records:
+  remove-geolocation-records:
     runs-on: ubuntu-latest
     steps:
-    - name: Update Geolocation Records
+    - name: Remove Geolocation Records
       uses: saif-qureos/aws-route53-geolocation-updater@v1.0
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
